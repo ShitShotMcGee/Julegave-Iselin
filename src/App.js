@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { JigsawPuzzle } from 'react-jigsaw-puzzle/lib'
 import 'react-jigsaw-puzzle/lib/jigsaw-puzzle.css'
