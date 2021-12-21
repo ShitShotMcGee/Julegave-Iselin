@@ -27,12 +27,16 @@ function App() {
 export default App;
 
 const Background = styled.div`
-  border: 5px solid #3c57ff;
+  border: 5px solid;
   margin: 1px;
-  border-radius: 20px;
+  border-image:
+		  linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red) 1;
 `
 const H1 = styled.h1`
 	font-family: "Comic Sans MS";
+  background: -webkit-linear-gradient(violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 `
 const Header = styled.div`
 	display: flex;
