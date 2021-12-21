@@ -15,8 +15,8 @@ function App() {
 
 		  <Background className="App">
 			  <JigsawPuzzle imageSrc='https://www.maritimetours.no/wp-content/uploads/2020/02/Solstrand-2-e1582637464366.jpg'
-							rows={2}
-							columns={2}
+							rows={3}
+							columns={4}
 							onSolved={() => alert('Yeeeeey!')}/>
 		  </Background>
 	  </div>
