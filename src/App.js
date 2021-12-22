@@ -10,7 +10,7 @@ function App() {
   return (
 	  <div>
 		  <Header>
-			  <H1>Iselin Julegave</H1>
+			  <H1>Iselins julepuslespill</H1>
 		  </Header>
 
 		  <Background className="App">
