@@ -17,7 +17,7 @@ function App() {
 			  <JigsawPuzzle imageSrc='https://www.maritimetours.no/wp-content/uploads/2020/02/Solstrand-2-e1582637464366.jpg'
 							rows={3}
 							columns={4}
-							onSolved={() => alert('Yeeeeey!')}/>
+							onSolved={() => alert('Gratulerer med vel gjennomført pusling! Nå må du holde av helgen 5-6 mars, fordi din julegave er en minihelg på Solstrand Hotel & Bad, med kveldens 3 retters.')}/>
 		  </Background>
 	  </div>
 
